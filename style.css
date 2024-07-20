@@ -1,0 +1,211 @@
+body
+{
+    margin: 0px ;
+}
+/* ----------navbar---------- */
+*
+{
+    font-family: sans-serif;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #212154;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 10px;
+}
+.nav-logo img
+{
+    width: 35px;
+}
+/* .list
+{
+  margin-left: 400px; 
+} */
+.list-item 
+{
+    display: inline;
+    margin-left: 5px; 
+    font-size: 10px;
+}
+.list-item a
+{
+    text-decoration: none;
+    color: white;
+}
+.list-item a:hover
+{
+    color: #0000ff;
+    cursor: pointer;
+    border-bottom: 1px solid #eeb3b3;
+}
+.navmenu
+{
+ display: none;
+}
+.navbutton button
+{
+    padding: 8px 15px;
+    background: transparent;
+    border: 1px solid #13e5ec;
+    background-color:#13e5ec;
+    font-size: 10px; 
+    color: #ffffff;
+}
+/* ----------codex----------- */
+.codex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: #212154;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+}
+.codex-left .head
+{
+    font-size: 20px;
+    color: #ffffff;
+}
+.codex-left p
+{
+    color: #ffffff;
+    font-size: 10px;
+}
+.codex-right img
+{
+    width: 300px;
+} 
+/* ----------system---------- */
+.system
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+.system-right
+{
+    /* margin-top: 60px; */
+}
+.system-right h1
+{
+  font-size: 20px;
+}
+.system-right h2
+{
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.system-right p
+{
+    font-size: 10px;
+    margin-left: 55px;
+}
+.system-left img
+{
+ width: 300px;
+}
+.system-left 
+{
+    margin-top: -35px;
+}
+h2 img:first-child
+{
+    width: 20px;
+    margin-bottom: -10px;
+}
+/* ---------cards---------- */
+.card-heading
+{
+    font-size: 20px;
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.card
+{
+  
+  margin-left: 20px;
+  margin-top: 15px;
+  height: 170px;
+  /* gap: 20px;  */
+  /* padding: 20px; */
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  box-shadow: 5px 5px 7px #808080;
+  border-radius: 30px;
+}
+.card h2
+{
+    font-size: 15px;
+}
+.card p,.card-fst p
+{
+    font-size: 10px;
+}
+.card img,.card-fst img
+{
+    width: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px #808080;
+}
+.card-fst
+{
+    /* margin-left: 10px; */
+  margin-top: 10px; 
+  /* height: 170px; */
+  /* gap: 40px;  */
+  padding-top: 30px; 
+  box-shadow: 5px 5px 7px #808080;
+  border-radius: 30px; 
+  color: #ffffff;
+}
+.fst
+{
+    background-color: #562f82;
+    border-radius: 19px;
+    padding-bottom: 33px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 5px 5px 7px #808080;
+
+}
+.fst h2
+{
+    font-size: 15px;
+}
+@media screen and (max-width: 768px) 
+{
+   .list
+    {
+        display: none;
+    }   
+   .navmenu
+    {
+    display: block;
+    }
+    .navbutton button
+    {
+        display: none; 
+    }
+}
